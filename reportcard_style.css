@@ -1,0 +1,103 @@
+*{
+    text-transform: capitalize !important;
+    box-sizing: border-box !important;
+    font-family: tahoma;
+}
+.title{
+    width: 1000px;
+    margin: 20px auto;
+    border-bottom: 1px solid #aca7a7;
+    text-align: center;
+}
+.title h2{
+    margin: 0;
+    font-weight: 100;
+    font-size:35px;
+}
+.title h3{
+    margin: 2px 0;
+    font-weight: 100;
+    font-size: 25px;
+}
+.details{
+    width: 1000px;
+    margin: 20px auto;
+    border-bottom: 1px solid #aca7a7;
+    text-align: center;
+}
+.report_infor{
+    border-bottom: 1px solid #aca7a7;
+}
+.details .name{
+    font-weight: bold;
+    display: inline-block;
+    width:300px;
+    margin:0px;
+    margin-bottom: 10px;
+    
+}
+.details .name .subname{
+    font-weight: 100;
+}
+.report_name{
+    display: block;
+    padding:10px 10px;
+}
+.report_name ul{
+    float: left;
+    display: block;
+    margin:0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.report_name li{
+    margin-left:0px;
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.report_name ul li .subname{
+  font-weight: 100;
+  font-size:19px;
+}
+.report_name:after{
+    content : " ";
+    display: block;
+    clear: both;
+  }
+  .report_result{
+    width: 1000px;
+    margin: 20px auto;
+    border-bottom: 1px solid #aca7a7;
+    text-align: left;
+}
+.report_result h2{
+  font-weight: 100;
+  margin-left: 70px;
+  margin-top: -5px;
+}
+.report_result table{
+  border-collapse: collapse;
+  margin-top:-20px;
+  margin-bottom: 20px;
+}
+.report_result table .subject{
+    width:200px;
+    text-align: left;
+    padding-left: 5px;
+  }
+  .report_result table .remark{
+    width:200px;
+    text-align: left;
+    padding-left: 5px;
+  }
+  .report_result table th{
+    text-align: center;
+    padding: 5px;
+    font-weight: 100;
+  }
+  .report_result table td{
+    text-align: center;
+    
+  }
+  
